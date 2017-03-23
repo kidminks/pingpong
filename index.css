@@ -1,0 +1,67 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin-left: 0;
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	color: yellow;
+}
+#total{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(4,5,2,0.9);
+	position: fixed;
+}
+#ball{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	top: 49%;
+	left: 49%;
+	border-radius: 50%;
+	background-image: url("ball.jpg");
+}
+#player{
+	height: 100px;
+	width: 20px;
+	margin: auto;
+	left: 0.5%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	position: fixed;
+	top: 48%;
+	background-image: url("bar.jpg");
+}
+#bot{
+	height: 100px;
+	width: 20px;
+	left: 98.5%;
+	margin: auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	position: fixed;
+	background-image: url("bar.jpg");
+}
+#data{
+	font-size: 64px;
+	text-align: center;
+}
+.ins{
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}
