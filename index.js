@@ -1,3 +1,5 @@
+// made by MAYANK KUMAR 
+// GitHub username Kidminks
 var speedX = -10;
 var speedY = 10;
 var movebotby = 8;
